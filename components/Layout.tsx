@@ -14,7 +14,7 @@ export const Layout: FC<Title> = ({ children, title = 'todo app' }) => {
         <title>{title}</title>
       </Head>
       <header></header>
-      <main className="items-cneter flex w-screen flex-1 flex-col justify-center">
+      <main className="flex w-screen flex-1 flex-col items-center justify-center">
         {children}
       </main>
       <footer className="flex h-12 w-full items-center justify-center border-t">
